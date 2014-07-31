@@ -1,0 +1,25 @@
+****
+Author: Marium Zeeshan
+****
+This file indicates about the field description in both input files.
+
+***Experiment.csv***
+1st Col = It tells whether the mass is static or dynamic. t = static,f = dynamic
+
+2nd,3rd,4th Cols = They are the position in the world coordinates for each mass according to Delaunay Triangulation. It is not necessary to obey Delaunay principle but it is highly recommended for the stability of the resulting network.
+
+5th Col- * = These are the columns which are used to mention the connection of corresponding mass to all the other masses. For example, in the sample file, for mass 4, it is connected to mass 0,1 and 2.
+
+***Experiment_ConnectionMapping.csv***
+This file shows the connection map of each of the mass to its other corresponding masses as well as the type of connection.
+
+1st Col = connection from mass
+2nd Col = connection to mass
+3rd Col = Type of connection.
+4th Col = Active Spring(This column is only applicable when the main connection(3rd Col) is spring)
+
+**Type of Connection Codes**
+1 = Spring Connection (If 4th column has 1, then this spring is considered as "active spring")
+2 = Point to Point Connection (BallSocket)
+3 = Slider Connection
+4 = Cone Twist Connection (Ragdoll)

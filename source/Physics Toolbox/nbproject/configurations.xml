@@ -1,0 +1,4331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="Bullet" displayName="Bullet" projectFiles="true">
+          <logicalFolder name="BulletCollision"
+                         displayName="BulletCollision"
+                         projectFiles="true">
+            <logicalFolder name="BroadphaseCollision"
+                           displayName="BroadphaseCollision"
+                           projectFiles="true">
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btAxisSweep3.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btAxisSweep3.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btBroadphaseInterface.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btBroadphaseProxy.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btCollisionAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btDbvt.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btDbvt.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btDbvtBroadphase.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btDbvtBroadphase.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btDispatcher.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btDispatcher.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btMultiSapBroadphase.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btMultiSapBroadphase.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btOverlappingPairCache.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btOverlappingPairCache.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btOverlappingPairCallback.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btQuantizedBvh.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btQuantizedBvh.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btSimpleBroadphase.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/BroadphaseCollision/btSimpleBroadphase.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="CollisionDispatch"
+                           displayName="CollisionDispatch"
+                           projectFiles="true">
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/SphereTriangleDetector.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/SphereTriangleDetector.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btActivatingCollisionAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btActivatingCollisionAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btBox2dBox2dCollisionAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btBoxBoxCollisionAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btBoxBoxDetector.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btBoxBoxDetector.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btCollisionConfiguration.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btCollisionCreateFunc.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btCollisionDispatcher.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btCollisionDispatcher.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btCollisionObject.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btCollisionObject.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btCollisionObjectWrapper.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btCollisionWorld.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btCompoundCollisionAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btCompoundCollisionAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btCompoundCompoundCollisionAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btCompoundCompoundCollisionAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btConvex2dConvex2dAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btConvexConcaveCollisionAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btConvexConvexAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btConvexConvexAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btConvexPlaneCollisionAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btDefaultCollisionConfiguration.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btDefaultCollisionConfiguration.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btEmptyCollisionAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btEmptyCollisionAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btGhostObject.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btGhostObject.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btHashedSimplePairCache.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btHashedSimplePairCache.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btInternalEdgeUtility.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btInternalEdgeUtility.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btManifoldResult.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btManifoldResult.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btSimulationIslandManager.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btSimulationIslandManager.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btSphereBoxCollisionAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btSphereSphereCollisionAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btSphereTriangleCollisionAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btUnionFind.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionDispatch/btUnionFind.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="CollisionShapes"
+                           displayName="CollisionShapes"
+                           projectFiles="true">
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btBox2dShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btBox2dShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btBoxShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btBoxShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btBvhTriangleMeshShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btBvhTriangleMeshShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btCapsuleShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btCapsuleShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btCollisionMargin.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btCollisionShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btCollisionShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btCompoundShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btCompoundShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConcaveShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConcaveShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConeShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConeShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvex2dShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvex2dShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvexHullShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvexHullShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvexInternalShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvexInternalShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvexPointCloudShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvexPointCloudShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvexPolyhedron.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvexPolyhedron.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvexShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvexShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvexTriangleMeshShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btConvexTriangleMeshShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btCylinderShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btCylinderShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btEmptyShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btEmptyShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btMaterial.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btMinkowskiSumShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btMinkowskiSumShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btMultiSphereShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btMultiSphereShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btMultimaterialTriangleMeshShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btMultimaterialTriangleMeshShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btOptimizedBvh.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btOptimizedBvh.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btPolyhedralConvexShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btPolyhedralConvexShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btScaledBvhTriangleMeshShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btScaledBvhTriangleMeshShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btShapeHull.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btShapeHull.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btSphereShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btSphereShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btStaticPlaneShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btStaticPlaneShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btStridingMeshInterface.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btStridingMeshInterface.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTetrahedronShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTetrahedronShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleBuffer.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleBuffer.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleCallback.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleCallback.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleIndexVertexMaterialArray.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleIndexVertexMaterialArray.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleInfoMap.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleMesh.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleMesh.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleMeshShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleMeshShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btTriangleShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btUniformScalingShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/CollisionShapes/btUniformScalingShape.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Gimpact" displayName="Gimpact" projectFiles="true">
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btBoxCollision.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btClipPolygon.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btCompoundFromGimpact.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btContactProcessing.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btContactProcessing.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btGImpactBvh.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btGImpactBvh.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btGImpactCollisionAlgorithm.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btGImpactCollisionAlgorithm.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btGImpactMassUtil.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btGImpactQuantizedBvh.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btGImpactQuantizedBvh.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btGImpactShape.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btGImpactShape.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btGenericPoolAllocator.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btGenericPoolAllocator.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btGeometryOperations.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btQuantization.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btTriangleShapeEx.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/btTriangleShapeEx.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_array.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_basic_geometry_operations.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_bitset.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_box_collision.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_box_set.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_box_set.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_clip_polygon.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_contact.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_contact.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_geom_types.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_geometry.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_hash_table.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_linear_math.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_math.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_memory.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_memory.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_radixsort.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_tri_collision.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/Gimpact/gim_tri_collision.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="NarrowPhaseCollision"
+                           displayName="NarrowPhaseCollision"
+                           projectFiles="true">
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btContinuousConvexCollision.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btContinuousConvexCollision.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btConvexCast.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btConvexCast.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btConvexPenetrationDepthSolver.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkConvexCast.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkConvexCast.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkEpa2.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkEpa2.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkPairDetector.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkPairDetector.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btManifoldPoint.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btPersistentManifold.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btPersistentManifold.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btPointCollector.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btPolyhedralContactClipping.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btPolyhedralContactClipping.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btRaycastCallback.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btRaycastCallback.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btSimplexSolverInterface.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btSubSimplexConvexCast.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btSubSimplexConvexCast.h</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/Bullet/BulletCollision/CMakeLists.txt</itemPath>
+            <itemPath>../src/Bullet/BulletCollision/Doxyfile</itemPath>
+            <itemPath>../src/Bullet/BulletCollision/premake4.lua</itemPath>
+          </logicalFolder>
+          <logicalFolder name="BulletDynamics"
+                         displayName="BulletDynamics"
+                         projectFiles="true">
+            <logicalFolder name="Character" displayName="Character" projectFiles="true">
+              <itemPath>../src/Bullet/BulletDynamics/Character/btCharacterControllerInterface.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Character/btKinematicCharacterController.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Character/btKinematicCharacterController.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="ConstraintSolver"
+                           displayName="ConstraintSolver"
+                           projectFiles="true">
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btConeTwistConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btConeTwistConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btConstraintSolver.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btContactConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btContactConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btContactSolverInfo.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btFixedConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btFixedConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btGearConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btGearConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btGeneric6DofSpringConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btGeneric6DofSpringConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btHinge2Constraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btHinge2Constraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btHingeConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btHingeConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btJacobianEntry.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btPoint2PointConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btPoint2PointConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btSliderConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btSliderConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btSolve2LinearConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btSolve2LinearConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btSolverBody.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btSolverConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btTypedConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btTypedConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btUniversalConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/ConstraintSolver/btUniversalConstraint.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Dynamics" displayName="Dynamics" projectFiles="true">
+              <itemPath>../src/Bullet/BulletDynamics/Dynamics/Bullet-C-API.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Dynamics/btActionInterface.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Dynamics/btDiscreteDynamicsWorld.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Dynamics/btDynamicsWorld.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Dynamics/btRigidBody.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Dynamics/btRigidBody.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Dynamics/btSimpleDynamicsWorld.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Dynamics/btSimpleDynamicsWorld.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Featherstone"
+                           displayName="Featherstone"
+                           projectFiles="true">
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBody.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBody.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyConstraintSolver.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyConstraintSolver.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyDynamicsWorld.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyDynamicsWorld.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyJointLimitConstraint.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyJointLimitConstraint.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyJointMotor.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyJointMotor.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyLink.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyLinkCollider.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyPoint2Point.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodyPoint2Point.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Featherstone/btMultiBodySolverConstraint.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="MLCPSolvers" displayName="MLCPSolvers" projectFiles="true">
+              <itemPath>../src/Bullet/BulletDynamics/MLCPSolvers/btDantzigLCP.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/MLCPSolvers/btDantzigLCP.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/MLCPSolvers/btDantzigSolver.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/MLCPSolvers/btMLCPSolver.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/MLCPSolvers/btMLCPSolver.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/MLCPSolvers/btMLCPSolverInterface.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/MLCPSolvers/btPATHSolver.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/MLCPSolvers/btSolveProjectedGaussSeidel.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Vehicle" displayName="Vehicle" projectFiles="true">
+              <itemPath>../src/Bullet/BulletDynamics/Vehicle/btRaycastVehicle.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Vehicle/btRaycastVehicle.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Vehicle/btVehicleRaycaster.h</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Vehicle/btWheelInfo.cpp</itemPath>
+              <itemPath>../src/Bullet/BulletDynamics/Vehicle/btWheelInfo.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/Bullet/BulletDynamics/CMakeLists.txt</itemPath>
+            <itemPath>../src/Bullet/BulletDynamics/premake4.lua</itemPath>
+          </logicalFolder>
+          <logicalFolder name="BulletSoftBody"
+                         displayName="BulletSoftBody"
+                         projectFiles="true">
+            <itemPath>../src/Bullet/BulletSoftBody/CMakeLists.txt</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btDefaultSoftBodySolver.cpp</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btDefaultSoftBodySolver.h</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftBody.cpp</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftBody.h</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.cpp</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.h</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftBodyData.h</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftBodyHelpers.cpp</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftBodyHelpers.h</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftBodyInternals.h</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.cpp</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.h</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftBodySolverVertexBuffer.h</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftBodySolvers.h</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftRigidCollisionAlgorithm.cpp</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftRigidCollisionAlgorithm.h</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftRigidDynamicsWorld.cpp</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftRigidDynamicsWorld.h</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftSoftCollisionAlgorithm.cpp</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSoftSoftCollisionAlgorithm.h</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/btSparseSDF.h</itemPath>
+            <itemPath>../src/Bullet/BulletSoftBody/premake4.lua</itemPath>
+          </logicalFolder>
+          <logicalFolder name="LinearMath" displayName="LinearMath" projectFiles="true">
+            <itemPath>../src/Bullet/LinearMath/CMakeLists.txt</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btAabbUtil2.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btAlignedAllocator.cpp</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btAlignedAllocator.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btAlignedObjectArray.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btConvexHull.cpp</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btConvexHull.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btConvexHullComputer.cpp</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btConvexHullComputer.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btDefaultMotionState.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btGeometryUtil.cpp</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btGeometryUtil.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btGrahamScan2dConvexHull.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btHashMap.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btIDebugDraw.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btList.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btMatrix3x3.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btMatrixX.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btMinMax.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btMotionState.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btPolarDecomposition.cpp</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btPolarDecomposition.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btPoolAllocator.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btQuadWord.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btQuaternion.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btQuickprof.cpp</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btQuickprof.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btRandom.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btScalar.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btSerializer.cpp</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btSerializer.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btStackAlloc.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btTransform.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btTransformUtil.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btVector3.cpp</itemPath>
+            <itemPath>../src/Bullet/LinearMath/btVector3.h</itemPath>
+            <itemPath>../src/Bullet/LinearMath/premake4.lua</itemPath>
+          </logicalFolder>
+          <itemPath>../src/Bullet/btBulletCollisionCommon.h</itemPath>
+          <itemPath>../src/Bullet/btBulletDynamicsCommon.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="OpenGL" displayName="OpenGL" projectFiles="true">
+          <itemPath>../src/OpenGL/CMakeLists.txt</itemPath>
+          <itemPath>../src/OpenGL/CommandLineArguments.h</itemPath>
+          <itemPath>../src/OpenGL/DebugCastResult.h</itemPath>
+          <itemPath>../src/OpenGL/DemoApplication.cpp</itemPath>
+          <itemPath>../src/OpenGL/DemoApplication.h</itemPath>
+          <itemPath>../src/OpenGL/GLDebugDrawer.cpp</itemPath>
+          <itemPath>../src/OpenGL/GLDebugDrawer.h</itemPath>
+          <itemPath>../src/OpenGL/GLDebugFont.cpp</itemPath>
+          <itemPath>../src/OpenGL/GLDebugFont.h</itemPath>
+          <itemPath>../src/OpenGL/GL_DialogDynamicsWorld.cpp</itemPath>
+          <itemPath>../src/OpenGL/GL_DialogDynamicsWorld.h</itemPath>
+          <itemPath>../src/OpenGL/GL_DialogWindow.cpp</itemPath>
+          <itemPath>../src/OpenGL/GL_DialogWindow.h</itemPath>
+          <itemPath>../src/OpenGL/GL_ShapeDrawer.cpp</itemPath>
+          <itemPath>../src/OpenGL/GL_ShapeDrawer.h</itemPath>
+          <itemPath>../src/OpenGL/GL_Simplex1to4.cpp</itemPath>
+          <itemPath>../src/OpenGL/GL_Simplex1to4.h</itemPath>
+          <itemPath>../src/OpenGL/GlutDemoApplication.cpp</itemPath>
+          <itemPath>../src/OpenGL/GlutDemoApplication.h</itemPath>
+          <itemPath>../src/OpenGL/GlutStuff.cpp</itemPath>
+          <itemPath>../src/OpenGL/GlutStuff.h</itemPath>
+          <itemPath>../src/OpenGL/Makefile</itemPath>
+          <itemPath>../src/OpenGL/Makefile.am</itemPath>
+          <itemPath>../src/OpenGL/Makefile.in</itemPath>
+          <itemPath>../src/OpenGL/RenderTexture.cpp</itemPath>
+          <itemPath>../src/OpenGL/RenderTexture.h</itemPath>
+          <itemPath>../src/OpenGL/Win32AppMain.cpp</itemPath>
+          <itemPath>../src/OpenGL/Win32DemoApplication.cpp</itemPath>
+          <itemPath>../src/OpenGL/Win32DemoApplication.h</itemPath>
+          <itemPath>../src/OpenGL/premake4.lua</itemPath>
+          <itemPath>../src/OpenGL/stb_image.cpp</itemPath>
+          <itemPath>../src/OpenGL/stb_image.h</itemPath>
+        </logicalFolder>
+        <itemPath>../src/MultipleObjects.cpp</itemPath>
+        <itemPath>../src/MultipleObjects.h</itemPath>
+        <itemPath>../../../../../../ZHAW/Bachelorarbeit/ba-repo/Application/src/log4cxx.properties</itemPath>
+        <itemPath>../src/main.cpp</itemPath>
+        <itemPath>../src/main.h</itemPath>
+        <itemPath>../src/strtk.hpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../src/OpenGL</pElem>
+            <pElem>../src/Bullet</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>GL</linkerLibLibItem>
+            <linkerLibLibItem>GLU</linkerLibLibItem>
+            <linkerLibLibItem>glut</linkerLibLibItem>
+            <linkerOptionItem>`pkg-config --libs liblog4cxx`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../../../../../ZHAW/Bachelorarbeit/ba-repo/Application/src/log4cxx.properties"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btAxisSweep3.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btAxisSweep3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btBroadphaseInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btBroadphaseProxy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btDbvt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btDbvt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btDbvtBroadphase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btDbvtBroadphase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btDispatcher.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btDispatcher.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btMultiSapBroadphase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btMultiSapBroadphase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btOverlappingPairCache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btOverlappingPairCache.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btOverlappingPairCallback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btQuantizedBvh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btQuantizedBvh.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btSimpleBroadphase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btSimpleBroadphase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CMakeLists.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/SphereTriangleDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/SphereTriangleDetector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btActivatingCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btActivatingCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btBox2dBox2dCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btBoxBoxCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btBoxBoxDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btBoxBoxDetector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionConfiguration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionCreateFunc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionDispatcher.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionDispatcher.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionObjectWrapper.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionWorld.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCompoundCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCompoundCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCompoundCompoundCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCompoundCompoundCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvex2dConvex2dAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvexConcaveCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvexConvexAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvexConvexAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvexPlaneCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btDefaultCollisionConfiguration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btDefaultCollisionConfiguration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btEmptyCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btEmptyCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btGhostObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btGhostObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btHashedSimplePairCache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btHashedSimplePairCache.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btInternalEdgeUtility.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btInternalEdgeUtility.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btManifoldResult.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btManifoldResult.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSimulationIslandManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSimulationIslandManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSphereBoxCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSphereSphereCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSphereTriangleCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btUnionFind.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btUnionFind.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btBox2dShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btBox2dShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btBoxShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btBoxShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btBvhTriangleMeshShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btBvhTriangleMeshShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCapsuleShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCapsuleShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCollisionMargin.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCollisionShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCollisionShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCompoundShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCompoundShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConcaveShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConcaveShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConeShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConeShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvex2dShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvex2dShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexHullShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexHullShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexInternalShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexInternalShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexPointCloudShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexPointCloudShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexPolyhedron.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexPolyhedron.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexTriangleMeshShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexTriangleMeshShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCylinderShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCylinderShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btEmptyShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btEmptyShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMaterial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMinkowskiSumShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMinkowskiSumShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMultiSphereShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMultiSphereShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMultimaterialTriangleMeshShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMultimaterialTriangleMeshShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btOptimizedBvh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btOptimizedBvh.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btPolyhedralConvexShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btPolyhedralConvexShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btScaledBvhTriangleMeshShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btScaledBvhTriangleMeshShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btShapeHull.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btShapeHull.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btSphereShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btSphereShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btStaticPlaneShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btStaticPlaneShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btStridingMeshInterface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btStridingMeshInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTetrahedronShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTetrahedronShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleBuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleBuffer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleCallback.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleCallback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleIndexVertexMaterialArray.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleIndexVertexMaterialArray.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleInfoMap.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleMesh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleMesh.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleMeshShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleMeshShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btUniformScalingShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btUniformScalingShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Doxyfile"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btBoxCollision.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btClipPolygon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btCompoundFromGimpact.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btContactProcessing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btContactProcessing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactBvh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactBvh.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactMassUtil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactQuantizedBvh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactQuantizedBvh.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGenericPoolAllocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGenericPoolAllocator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGeometryOperations.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btQuantization.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btTriangleShapeEx.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btTriangleShapeEx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_array.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_basic_geometry_operations.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_bitset.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_box_collision.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_box_set.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_box_set.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_clip_polygon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_contact.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_contact.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_geom_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_geometry.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_hash_table.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_linear_math.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_math.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_memory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_memory.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_radixsort.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_tri_collision.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_tri_collision.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btContinuousConvexCollision.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btContinuousConvexCollision.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btConvexCast.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btConvexCast.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btConvexPenetrationDepthSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkConvexCast.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkConvexCast.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkEpa2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkEpa2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkPairDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkPairDetector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btManifoldPoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btPersistentManifold.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btPersistentManifold.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btPointCollector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btPolyhedralContactClipping.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btPolyhedralContactClipping.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btRaycastCallback.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btRaycastCallback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btSimplexSolverInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btSubSimplexConvexCast.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btSubSimplexConvexCast.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/premake4.lua"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/CMakeLists.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Character/btCharacterControllerInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Character/btKinematicCharacterController.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Character/btKinematicCharacterController.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btConeTwistConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btConeTwistConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btConstraintSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btContactConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btContactConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btContactSolverInfo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btFixedConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btFixedConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btGearConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btGearConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btGeneric6DofSpringConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btGeneric6DofSpringConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btHinge2Constraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btHinge2Constraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btHingeConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btHingeConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btJacobianEntry.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btPoint2PointConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btPoint2PointConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSliderConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSliderConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSolve2LinearConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSolve2LinearConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSolverBody.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSolverConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btTypedConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btTypedConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btUniversalConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btUniversalConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/Bullet-C-API.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btActionInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btDiscreteDynamicsWorld.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btDynamicsWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btRigidBody.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btRigidBody.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btSimpleDynamicsWorld.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btSimpleDynamicsWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBody.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBody.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyConstraintSolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyConstraintSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyDynamicsWorld.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyDynamicsWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyJointLimitConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyJointLimitConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyJointMotor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyJointMotor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyLink.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyLinkCollider.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyPoint2Point.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyPoint2Point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodySolverConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btDantzigLCP.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btDantzigLCP.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btDantzigSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btMLCPSolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btMLCPSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btMLCPSolverInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btPATHSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btSolveProjectedGaussSeidel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Vehicle/btRaycastVehicle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Vehicle/btRaycastVehicle.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Vehicle/btVehicleRaycaster.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Vehicle/btWheelInfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Vehicle/btWheelInfo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/premake4.lua"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/CMakeLists.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btDefaultSoftBodySolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btDefaultSoftBodySolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBody.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBody.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyData.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyHelpers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyHelpers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyInternals.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodySolverVertexBuffer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodySolvers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftRigidCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftRigidCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftRigidDynamicsWorld.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftRigidDynamicsWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftSoftCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftSoftCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSparseSDF.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/premake4.lua"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/CMakeLists.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btAabbUtil2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btAlignedAllocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btAlignedAllocator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btAlignedObjectArray.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btConvexHull.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btConvexHull.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btConvexHullComputer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btConvexHullComputer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btDefaultMotionState.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btGeometryUtil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btGeometryUtil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btGrahamScan2dConvexHull.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btHashMap.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btIDebugDraw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btMatrix3x3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btMatrixX.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btMinMax.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btMotionState.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btPolarDecomposition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btPolarDecomposition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btPoolAllocator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btQuadWord.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btQuaternion.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btQuickprof.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btQuickprof.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btRandom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btScalar.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btSerializer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btSerializer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btStackAlloc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btTransform.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btTransformUtil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btVector3.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btVector3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/premake4.lua"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/btBulletCollisionCommon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/btBulletDynamicsCommon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/MultipleObjects.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/MultipleObjects.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/CMakeLists.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/CommandLineArguments.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/DebugCastResult.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/DemoApplication.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/DemoApplication.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GLDebugDrawer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GLDebugDrawer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GLDebugFont.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GLDebugFont.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_DialogDynamicsWorld.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_DialogDynamicsWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_DialogWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_DialogWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_ShapeDrawer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_ShapeDrawer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_Simplex1to4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_Simplex1to4.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GlutDemoApplication.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GlutDemoApplication.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GlutStuff.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GlutStuff.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/Makefile.am" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/Makefile.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/RenderTexture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/RenderTexture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/Win32AppMain.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/Win32DemoApplication.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/Win32DemoApplication.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/premake4.lua" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/stb_image.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/stb_image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/strtk.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../../../../../../ZHAW/Bachelorarbeit/ba-repo/Application/src/log4cxx.properties"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btAxisSweep3.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btAxisSweep3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btBroadphaseInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btBroadphaseProxy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btDbvt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btDbvt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btDbvtBroadphase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btDbvtBroadphase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btDispatcher.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btDispatcher.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btMultiSapBroadphase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btMultiSapBroadphase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btOverlappingPairCache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btOverlappingPairCache.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btOverlappingPairCallback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btQuantizedBvh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btQuantizedBvh.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btSimpleBroadphase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/BroadphaseCollision/btSimpleBroadphase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CMakeLists.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/SphereTriangleDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/SphereTriangleDetector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btActivatingCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btActivatingCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btBox2dBox2dCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btBoxBoxCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btBoxBoxDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btBoxBoxDetector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionConfiguration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionCreateFunc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionDispatcher.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionDispatcher.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionObjectWrapper.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionWorld.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCompoundCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCompoundCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCompoundCompoundCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btCompoundCompoundCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvex2dConvex2dAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvexConcaveCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvexConvexAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvexConvexAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btConvexPlaneCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btDefaultCollisionConfiguration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btDefaultCollisionConfiguration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btEmptyCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btEmptyCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btGhostObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btGhostObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btHashedSimplePairCache.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btHashedSimplePairCache.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btInternalEdgeUtility.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btInternalEdgeUtility.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btManifoldResult.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btManifoldResult.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSimulationIslandManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSimulationIslandManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSphereBoxCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSphereSphereCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btSphereTriangleCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btUnionFind.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionDispatch/btUnionFind.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btBox2dShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btBox2dShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btBoxShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btBoxShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btBvhTriangleMeshShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btBvhTriangleMeshShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCapsuleShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCapsuleShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCollisionMargin.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCollisionShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCollisionShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCompoundShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCompoundShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConcaveShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConcaveShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConeShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConeShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvex2dShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvex2dShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexHullShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexHullShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexInternalShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexInternalShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexPointCloudShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexPointCloudShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexPolyhedron.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexPolyhedron.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexTriangleMeshShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btConvexTriangleMeshShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCylinderShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btCylinderShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btEmptyShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btEmptyShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMaterial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMinkowskiSumShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMinkowskiSumShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMultiSphereShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMultiSphereShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMultimaterialTriangleMeshShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btMultimaterialTriangleMeshShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btOptimizedBvh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btOptimizedBvh.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btPolyhedralConvexShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btPolyhedralConvexShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btScaledBvhTriangleMeshShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btScaledBvhTriangleMeshShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btShapeHull.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btShapeHull.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btSphereShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btSphereShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btStaticPlaneShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btStaticPlaneShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btStridingMeshInterface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btStridingMeshInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTetrahedronShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTetrahedronShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleBuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleBuffer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleCallback.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleCallback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleIndexVertexMaterialArray.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleIndexVertexMaterialArray.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleInfoMap.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleMesh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleMesh.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleMeshShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleMeshShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btTriangleShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btUniformScalingShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/CollisionShapes/btUniformScalingShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Doxyfile"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btBoxCollision.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btClipPolygon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btCompoundFromGimpact.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btContactProcessing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btContactProcessing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactBvh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactBvh.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactMassUtil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactQuantizedBvh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactQuantizedBvh.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactShape.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGImpactShape.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGenericPoolAllocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGenericPoolAllocator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btGeometryOperations.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btQuantization.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btTriangleShapeEx.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/btTriangleShapeEx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_array.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_basic_geometry_operations.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_bitset.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_box_collision.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_box_set.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_box_set.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_clip_polygon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_contact.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_contact.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_geom_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_geometry.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_hash_table.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_linear_math.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_math.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_memory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_memory.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_radixsort.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_tri_collision.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/Gimpact/gim_tri_collision.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btContinuousConvexCollision.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btContinuousConvexCollision.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btConvexCast.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btConvexCast.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btConvexPenetrationDepthSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkConvexCast.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkConvexCast.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkEpa2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkEpa2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkPairDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btGjkPairDetector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btManifoldPoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btPersistentManifold.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btPersistentManifold.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btPointCollector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btPolyhedralContactClipping.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btPolyhedralContactClipping.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btRaycastCallback.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btRaycastCallback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btSimplexSolverInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btSubSimplexConvexCast.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btSubSimplexConvexCast.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletCollision/premake4.lua"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/CMakeLists.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Character/btCharacterControllerInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Character/btKinematicCharacterController.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Character/btKinematicCharacterController.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btConeTwistConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btConeTwistConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btConstraintSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btContactConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btContactConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btContactSolverInfo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btFixedConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btFixedConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btGearConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btGearConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btGeneric6DofSpringConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btGeneric6DofSpringConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btHinge2Constraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btHinge2Constraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btHingeConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btHingeConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btJacobianEntry.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btPoint2PointConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btPoint2PointConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSliderConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSliderConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSolve2LinearConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSolve2LinearConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSolverBody.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btSolverConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btTypedConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btTypedConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btUniversalConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/ConstraintSolver/btUniversalConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/Bullet-C-API.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btActionInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btDiscreteDynamicsWorld.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btDynamicsWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btRigidBody.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btRigidBody.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btSimpleDynamicsWorld.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Dynamics/btSimpleDynamicsWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBody.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBody.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyConstraintSolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyConstraintSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyDynamicsWorld.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyDynamicsWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyJointLimitConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyJointLimitConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyJointMotor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyJointMotor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyLink.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyLinkCollider.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyPoint2Point.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodyPoint2Point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Featherstone/btMultiBodySolverConstraint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btDantzigLCP.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btDantzigLCP.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btDantzigSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btMLCPSolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btMLCPSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btMLCPSolverInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btPATHSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/MLCPSolvers/btSolveProjectedGaussSeidel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Vehicle/btRaycastVehicle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Vehicle/btRaycastVehicle.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Vehicle/btVehicleRaycaster.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Vehicle/btWheelInfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/Vehicle/btWheelInfo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletDynamics/premake4.lua"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/CMakeLists.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btDefaultSoftBodySolver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btDefaultSoftBodySolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBody.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBody.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyData.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyHelpers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyHelpers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyInternals.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodySolverVertexBuffer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftBodySolvers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftRigidCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftRigidCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftRigidDynamicsWorld.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftRigidDynamicsWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftSoftCollisionAlgorithm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSoftSoftCollisionAlgorithm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/btSparseSDF.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/BulletSoftBody/premake4.lua"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/CMakeLists.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btAabbUtil2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btAlignedAllocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btAlignedAllocator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btAlignedObjectArray.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btConvexHull.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btConvexHull.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btConvexHullComputer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btConvexHullComputer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btDefaultMotionState.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btGeometryUtil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btGeometryUtil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btGrahamScan2dConvexHull.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btHashMap.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btIDebugDraw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btMatrix3x3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btMatrixX.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btMinMax.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btMotionState.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btPolarDecomposition.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btPolarDecomposition.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btPoolAllocator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btQuadWord.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btQuaternion.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btQuickprof.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btQuickprof.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btRandom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btScalar.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btSerializer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btSerializer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btStackAlloc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btTransform.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btTransformUtil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btVector3.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/btVector3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/LinearMath/premake4.lua"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/btBulletCollisionCommon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Bullet/btBulletDynamicsCommon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/MultipleObjects.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/MultipleObjects.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/CMakeLists.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/CommandLineArguments.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/DebugCastResult.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/DemoApplication.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/DemoApplication.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GLDebugDrawer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GLDebugDrawer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GLDebugFont.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GLDebugFont.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_DialogDynamicsWorld.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_DialogDynamicsWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_DialogWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_DialogWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_ShapeDrawer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_ShapeDrawer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_Simplex1to4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GL_Simplex1to4.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GlutDemoApplication.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GlutDemoApplication.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GlutStuff.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/GlutStuff.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/Makefile.am" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/Makefile.in" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/RenderTexture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/RenderTexture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/Win32AppMain.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/Win32DemoApplication.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/Win32DemoApplication.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/OpenGL/premake4.lua" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/stb_image.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/OpenGL/stb_image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/strtk.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
