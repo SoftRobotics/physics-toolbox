@@ -1,6 +1,7 @@
 Physics Toolbox
 ===============
-The Physics Toolbox allows to simulate a robot arm with an attached mass-spring network.
+The Physics Toolbox allows to simulate a robot arm with an attached mass-spring 
+network.
 
 ## Licenses
 The Physics Toolbox is published under the MIT License.
@@ -32,10 +33,11 @@ The Physics Toolbox is published under the MIT License.
 
 ### History
 The Physics Toolbox, as stored in the folder `source/originals`, was initially developed by 
-Marium Zeeshan at University of Zurich and then extended by René Bernhardsgrütter and 
-Christoph W. Senn as part of their Bachelor's Thesis at Zurich University of Applied 
-Sciences under the supervision of Dr. Rudolf M. Füchslin, Dr. Christian Jaeger and 
-Dr. Helmut Hauser and in scientific cooperation with University of Zurich and ETH Zurich.
+Marium Zeeshan at (University of Zurich)[https://www.uzh.ch/] and then extended by 
+René Bernhardsgrütter and Christoph W. Senn as part of their Bachelor's Thesis at 
+(Zurich University of Applied Sciences)[http://www.zhaw.ch/] under the supervision of 
+Dr. Rudolf M. Füchslin, Dr. Christian Jaeger and Dr. Helmut Hauser and in scientific 
+cooperation with University of Zurich and (ETH Zurich)[https://www.ethz.ch/].
 
 ### Third-Party Components
 This software contains the following third-party software components:
