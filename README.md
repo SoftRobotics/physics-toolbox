@@ -1,13 +1,12 @@
 Physics Toolbox
 ===============
-
 The Physics Toolbox allows to simulate a robot arm with an attached mass-spring network.
 
 # Licenses
 The Physics Toolbox is published under the MIT License.
 ```
 /*
- * Copyright © 2013 Marium Zeeshan at University of Zurich; 2014 René
+ * Copyright (C) 2013 Marium Zeeshan at University of Zurich; 2014 René
  * Bernhardsgrütter, Christoph Walter Senn at Zurich University of Applied
  * Sciences; 2014 Helmut Hauser at University of Zurich
  *
@@ -30,17 +29,15 @@ The Physics Toolbox is published under the MIT License.
  * SOFTWARE.
  */
  ```
- 
- ## History
- 
- The Physics Toolbox, as stored in the folder `originals`, was initially developed by 
- Marium Zeeshan at University of Zurich and then extended by René Bernhardsgrütter and 
- Christoph W. Senn as part of their Bachelor's Thesis at Zurich University of Applied 
- Sciences under the supervision of Dr. Rudolf M. Füchslin, Dr. Christian Jaeger and 
- Dr. Helmut Hauser and in scientific cooperation with University of Zurich and ETH Zurich.
- 
- ## Third-Party Components
- 
- This software contains the following third-party software components:
- * [Bullet Continuous Collision Detection and Physics Library](http://bulletphysics.com), published under the terms of the [zlib/libpng License](http://opensource.org/licenses/zlib-license.php).
- * [String Toolkit Library](http://www.partow.net/programming/strtk/index.html), published by Arash Partow under the terms of the most current version of the [Common Public License (CPL)](http://www.opensource.org/licenses/cpl1.0.php).
+
+## History
+The Physics Toolbox, as stored in the folder `source/originals`, was initially developed by 
+Marium Zeeshan at University of Zurich and then extended by René Bernhardsgrütter and 
+Christoph W. Senn as part of their Bachelor's Thesis at Zurich University of Applied 
+Sciences under the supervision of Dr. Rudolf M. Füchslin, Dr. Christian Jaeger and 
+Dr. Helmut Hauser and in scientific cooperation with University of Zurich and ETH Zurich.
+
+## Third-Party Components
+This software contains the following third-party software components:
+* [Bullet Continuous Collision Detection and Physics Library](http://bulletphysics.com), published under the terms of the [zlib/libpng License](http://opensource.org/licenses/zlib-license.php).
+* [String Toolkit Library](http://www.partow.net/programming/strtk/index.html), published by Arash Partow under the terms of the most current version of the [Common Public License (CPL)](http://www.opensource.org/licenses/cpl1.0.php).
